@@ -7,6 +7,7 @@ namespace DILIFETIMESDEMO.classes
     public class PricingService : IPricingService
     {
 
+        private Guid _id => Guid.NewGuid();
         public decimal CalculateTotal(decimal baseAmount)
         {
             return baseAmount * 1.07m;
@@ -14,8 +15,7 @@ namespace DILIFETIMESDEMO.classes
 
         public PricingService()
         {
-            Guid _id = Guid.NewGuid();
-            Console.WriteLine("PricingService created with Id: {_id}", _id);
+            Console.WriteLine($"PricingService created with Id: {_id}");
         }
     }
 

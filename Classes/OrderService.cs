@@ -18,7 +18,7 @@ namespace DILIFETIMESDEMO.classes
 
             _operationTracker.Increment();
 
-            _notificationService.SendNotification();
+            _notificationService.SendNotification(customer, amount);
 
             _appLogger.Log($"OrderService[{_id}] processed order for {customer} with total {total}");
 

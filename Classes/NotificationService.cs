@@ -4,15 +4,16 @@ namespace DILIFETIMESDEMO.classes
 {
     public class NotificationService : INotificationService
     {
-        public void SendNotification()
+        private Guid _id => Guid.NewGuid();
+
+        public void SendNotification(string customer, decimal amount)
         {
-            Console.WriteLine("Sending email to {customer}: Your order of {amount} has been processed.");
+            Console.WriteLine($"Sending email to {customer}: Your order of {amount} has been processed.");
         }
 
         public NotificationService()
         {
-            Guid _id = Guid.NewGuid();
-            Console.WriteLine("PricingService created with Id: {_id}", _id);
+            Console.WriteLine($"Notification Service created with Id: {_id}");
         }
 
     }
