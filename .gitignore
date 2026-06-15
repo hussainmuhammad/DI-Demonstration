@@ -1,0 +1,15 @@
+obj/DiLifetimesDemo.csproj.nuget.dgspec.json
+Program.cs
+obj/DiLifetimesDemo.csproj.nuget.g.props
+obj/DiLifetimesDemo.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+obj/Debug/net10.0/DiLifetimesDemo.AssemblyInfo.cs
+obj/Debug/net10.0/DiLifetimesDemo.AssemblyInfoInputs.cache
+obj/Debug/net10.0/DiLifetimesDemo.assets.cache
+obj/Debug/net10.0/DiLifetimesDemo.csproj.AssemblyReference.cache
+obj/Debug/net10.0/DiLifetimesDemo.csproj.CoreCompileInputs.cache
+obj/Debug/net10.0/DiLifetimesDemo.csproj.FileListAbsolute.txt
+obj/Debug/net10.0/DiLifetimesDemo.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net10.0/DiLifetimesDemo.GlobalUsings.g.cs
